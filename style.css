@@ -1,0 +1,148 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-color: #FFFAF1;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2em;
+    color: #FF6A55; /* Your brand color */
+}
+
+.nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.sign-in {
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    color: #555;
+}
+
+.free-sign-up {
+    color: #FF6A55;
+    font-weight: bold;
+}
+
+.hero-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.download-app {
+    background-color: #FF6A55;
+    color: white;
+}
+
+.how-it-works {
+    background-color: transparent;
+    color: #FF6A55;
+    border: 2px solid #FF6A55;
+}
+
+.search-section {
+    background-color: #FFF0E5;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-section h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.search-btn {
+    background-color: #FF6A55;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info-section {
+    background-color: #E1F3FF;
+    padding: 20px;
+    text-align: center;
+}
+
+.info-section h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.info-box p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.info-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.city {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.post-meal {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add responsive design and more specific styling as needed */
+
